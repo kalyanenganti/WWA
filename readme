@@ -1,0 +1,6 @@
+I have tried to program the Who's who app based on the user acceptance tests defined.
+The app supports android os versions 8 upto 17.
+To make the task easier.I have used the jsoup and the universal image loader libraries.
+The link to the image with the rounded shape was not working.I have made a crude fix for the same
+using a transparent circle with a white background masking the image.The activity does not have a table header as described in the 
+coding instructions.
