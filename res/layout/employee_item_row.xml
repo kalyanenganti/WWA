@@ -11,28 +11,29 @@
 
         <TextView
             android:id="@+id/txtName"
-            android:layout_width="70px"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:ellipsize="none"
             android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:ellipsize="none"
             android:scrollHorizontally="false"
             android:textColor="#000000"
             android:textSize="10sp" />
 
         <TextView
             android:id="@+id/txtDep"
-            android:layout_width="70px"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:ellipsize="none"
-            android:maxLines="100"
-            android:scrollHorizontally="false"
             android:textColor="#000000"
             android:textSize="10sp" />
 
         <TextView
             android:id="@+id/txtBio"
-            android:layout_width="180px"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:ellipsize="none"
             android:maxLines="100"
             android:scrollHorizontally="false"
@@ -41,7 +42,7 @@
 
         <FrameLayout
             android:layout_width="95px"
-            android:layout_height="95px">
+            android:layout_height="95px" >
 
             <ImageView
                 android:id="@+id/imgIcon"
