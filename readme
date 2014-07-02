@@ -1,6 +1,6 @@
-This is a coding test  for the Who'sWhoApp that I had given for 'The App Business'.I have tried to program the
+This is a coding test  for the Who's Who App that I had been given for 'The App Business'.I have tried to program the
 app based on the user acceptance tests defined.The app supports android os versions 8 upto 17.
-To make the task easier.I have used the jsoup and the universal image loader libraries.
-The link to the image with the rounded shape was not working.I have made a crude fix for the same
+To abstain from reinventing the wheel, I have used the jsoup and the universal image loader libraries.
+The link to the image with the rounded shape was not working. Based on my own assumptions, I have made a crude fix for the same
 using a transparent circle with a white background masking the image.The activity does not have a 
 table header as described in the coding instructions.
